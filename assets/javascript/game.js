@@ -29,7 +29,7 @@ var letter = [
 
 var compuGuess = letter[Math.floor(Math.random() * letter.length)];
 var guessCounter = 9;
-var guessedLetter = [];
+//var guessedLetter = [];
 
 var wins = 0;
 var losses = 0;
