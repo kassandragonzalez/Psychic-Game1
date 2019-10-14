@@ -61,26 +61,3 @@ document.onkeyup = function(event) {
   winsText.textContent = "wins: " + wins;
   lossesText.textContent = "losses: " + losses;
 };
-
-//for Psychic game
-
-//For Word Game
-
-/*
-This goes in html:
-
-<div id="user-progress"> --- </div>
-*/
-/*var words = ["apple", "pizza", "watermelon", "tacos"];
-var compuChoice = words[0];
-console.group(compuChoice);
-var targetWord = compuChoice.split("");
-console.log(targetWord);
-
-function makeDashes() {
-  for (var i = 0; i < targetWord.length; i++) {
-    var userProgress = document.getElementById("user-progress");
-    var theDashes = "";
-    userProgress.textContent += "_";
-  }
-}*/
